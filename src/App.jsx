@@ -8,26 +8,24 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <section>
+        <h1 className='t'>Fordele og ulemper ved React</h1>
+        <section className='list'>
+          <ul>
+            <h2>Fordele:</h2>
+            <li>Man kan genbruge det kode man laver</li>
+            <li>God til store projekter</li>
+            <li>Mange virksomheder bruger det</li>
+            <li>Stort fællesskab og mange ressourcer</li>
+          </ul>
+          <ul>
+            <h2>Ulemper:</h2>
+            <li>Ikke så god til små projekter</li>
+            <li>Kan være svært at lære for begyndere</li>
+            <li>Kræver ofte ekstra biblioteker for fuld funktionalitet</li>
+          </ul>
+        </section>
+      </section>
     </>
   )
 }
